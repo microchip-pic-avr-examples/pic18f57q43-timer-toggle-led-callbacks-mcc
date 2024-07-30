@@ -93,5 +93,5 @@ A logic analyser can be used instead of Debug GPIO on the MPLAB Data Visualizer.
 <!-- Summarize what the example has shown -->
 For more example components, open the standalone content mangager in MCC ![CM_icon](images/CM_icon.png) . 
 
-![Standalone_CM](images/MCC_ContentManager_Examples.png) 
+![Standalone_CM](images/MCC_ContentManager_Examples_18cm.png) 
 
