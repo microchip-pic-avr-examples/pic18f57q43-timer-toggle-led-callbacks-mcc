@@ -62,7 +62,7 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 
 All instructions required to re-create this example are listed below, under Configuration Instructions.   
 
-![TIMER Toggle LED, Polled Implementation](images/TIMER_Toggle_LED_Polled_12cm.png)
+![TIMER Toggle LED, Polled Implementation](images/TIMER_Toggle_LED_Polled_15cm.png)
 
 Once you have loaded the project in MPLAB X IDE, you will also be able to find more information from Tooltips and links next to the instructions 
 [![Tooltip and link](images/info-circle-fill.png "Change the values of these settings until the needed Requested Period is between the indicated min., max values.")](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.CONFIGHELP.TIMER.PERIOD&version=latest&redirect=true) .
