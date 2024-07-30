@@ -3,22 +3,18 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>pic18f57q43-timer-toggle-led-polled-mcc-melody</name>
-            <creation-uuid>13bba043-d937-43ba-81cf-13e4b5ac5dbf</creation-uuid>
+            <name>pic18f57q43-timer-toggle-led-callbacks-mcc</name>
+            <creation-uuid>f568ed81-012b-4472-998e-f10010fee417</creation-uuid>
             <make-project-type>0</make-project-type>
-            <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>free</name>
-                    <type>2</type>
-                </confElem>
-                <confElem>
-                    <name>pro</name>
+                    <name>default</name>
                     <type>2</type>
                 </confElem>
             </confList>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>
             </formatting>

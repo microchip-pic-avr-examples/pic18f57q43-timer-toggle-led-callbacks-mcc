@@ -10,7 +10,8 @@
 
 # pic18f57q43-timer-toggle-led-callbacks-mcc
 
-The TIMER Toggle LED example, of the MCC Melody Timer Example Component, is used in the Callbacks implementation.  The LED on the PIC18F57Q43 Curiosity Nano is toggled, as well as a Debug IO, which can be used to verify the 100 ms period. 
+The [TIMER Toggle LED example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.TIMER.PIC16F18F.TOGGLE.LED&version=latest&redirect=true
+), of the MCC Melody Timer Example Component, is used in the Callbacks implementation.  The LED on the PIC18F57Q43 Curiosity Nano is toggled, as well as a Debug IO, which can be used to verify the 100 ms period. 
 
 
 <!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
@@ -74,7 +75,8 @@ Once you have loaded the project in MPLAB X IDE, you will also be able to find m
 
 ## Operation
 
-The image below shows the Timer Toggle LED example running. The period of 100ms is verifyied using Debug GPIO on the MPLAB Data Visualizer. A PIC18F57Q43 Curiosity Nano is used.
+The image below shows the [TIMER Toggle LED example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.TIMER.PIC16F18F.TOGGLE.LED&version=latest&redirect=true
+) running. The period of 100ms is verifyied using Debug GPIO on the MPLAB Data Visualizer. A PIC18F57Q43 Curiosity Nano is used.
 
 Note: One could achieve this same functionality by adding the Timer Example component to a new or existing MCC Melody project, for one of the supported microcontrollers.  
 
