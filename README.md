@@ -83,7 +83,7 @@ The image shows running the Timer Toggle LED, verifying the 100ms period using D
 
 Two vertical cursors are added to verify the timer frequency. See configuration instructions below.
  
-<img src="images/DataVisualizerConfigTimerToggle%20LED.png" alt="DataVisualizer config Timer Toggle LED" width="500">
+![DataVisualizer config Timer Toggle LED](images/DataVisualizerConfigTimerToggle_LED_15cm.png)
 
 A logic analyser can be used instead of Debug GPIO on the MPLAB Data Visualizer.
 
