@@ -19,7 +19,7 @@ The TIMER Toggle LED example, of the MCC Melody Timer Example Component, is used
 Example Components are a tight integration of learning material integrated directly into MCC. This allows users the convenient side-by-side placement of the configuration instructions and the components they are configuring - [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
 
-<img src="images/GUID-ADDC2E58-F16C-46BD-A42F-D8FF02459622-high.png" alt="MCC Melody Example Components" width="500">
+![MCC Melody Example Components](images/GUID-ADDC2E58-F16C-46BD-A42F-D8FF02459622-high_12cm.png)
 
 
 Completele projects, such as this one, avilable in [MPLAB® Discover](https://mplab-discover.microchip.com), or GitHub, are specific to a board and microcontroller. However, this project could be re-created following the steps in the example component, on a range of supported microcontrollers. Further more, the functionality could be adding into an existing project. 
@@ -62,14 +62,13 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 
 All instructions required to re-create this example are listed below, under Configuration Instructions.   
 
-<img src="images/TIMER_Toggle_LED_Polled.png" alt="TIMER Toggle LED, Polled Implementation" width="500">
-
+![TIMER Toggle LED, Polled Implementation](images/TIMER_Toggle_LED_Polled_12cm.png)
 
 Once you have loaded the project in MPLAB X IDE, you will also be able to find more information from Tooltips and links next to the instructions 
 [![Tooltip and link](images/info-circle-fill.png "Change the values of these settings until the needed Requested Period is between the indicated min., max values.")](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.CONFIGHELP.TIMER.PERIOD&version=latest&redirect=true) .
 
 
-<img src="images/HardwareSettings_RequestedPeriod.png" alt="Tooltips and contenxt help" width="500">
+![Tooltips and contenxt help](images/HardwareSettings_RequestedPeriod.png)
 
 
 <!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
@@ -78,7 +77,7 @@ Once you have loaded the project in MPLAB X IDE, you will also be able to find m
 
 The image shows running the Timer Toggle LED, verifying the 100ms period using Debug GPIO on the MPLAB Data Visualizer. An example Curiosity Nano is used, but the example can be configured to run on any board.
 
-<img src="images/RunningTimerToggleLED.png" alt="Running the Timer Toogle LED example" width="500">
+![Running the Timer Toogle LED example](images/RunningTimerToggleLED_15cm.png)
 
 
 Two vertical cursors are added to verify the timer frequency. See configuration instructions below.
@@ -94,5 +93,5 @@ A logic analyser can be used instead of Debug GPIO on the MPLAB Data Visualizer.
 <!-- Summarize what the example has shown -->
 For more example components, open the standalone content mangager in MCC ![CM_icon](images/CM_icon.png) . 
 
-<img src="images/MCC_ContentManager_Examples.png" alt="Standalone_CM" width="500">
+![Standalone_CM](images/MCC_ContentManager_Examples.png) 
 
