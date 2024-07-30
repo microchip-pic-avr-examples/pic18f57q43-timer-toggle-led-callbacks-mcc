@@ -16,20 +16,19 @@ The TIMER Toggle LED example, of the MCC Melody Timer Example Component, is used
 <!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
 
 ## MCC Melody Example Components
-Example Components are a tight integration of learning material integrated directly into MCC. This allows users the convenient side-by-side placement of the configuration instructions and the components they are configuring - [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
+Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring - [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
 
 ![MCC Melody Example Components](images/GUID-ADDC2E58-F16C-46BD-A42F-D8FF02459622-high_12cm.png)
 
 
-Completele projects, such as this one, avilable in [MPLAB® Discover](https://mplab-discover.microchip.com), or GitHub, are specific to a board and microcontroller. However, this project could be re-created following the steps in the example component, on a range of supported microcontrollers. Further more, the functionality could be adding into an existing project. 
+Completele projects, such as this one, avilable in [MPLAB® Discover](https://mplab-discover.microchip.com), or GitHub, are specific to a board and microcontroller. However, this project could be re-created following the steps in the example component, on a range of supported microcontrollers. Furthermore, the functionality of this example could be added to an existing project. 
 
-Let’s explore what an example component is, as well as the difference between example and implementation - [MCC Melody Example Components - The Basics](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.BASICS&version=latest&redirect=true).
+To explore what an example component is, as well as the difference between example and implementation, see - [MCC Melody Example Components - The Basics](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.BASICS&version=latest&redirect=true).
 
-Example Components are related to [MCC Melody Design Patterns for Control Flow](https://onlinedocs.microchip.com/g/GUID-7CE1AEE9-2487-4E7B-B26B-93A577BA154E), i.e., different ways to organize main.c and other application-level files, e.g., Polling-, Interrupt and Callback- or State Machine-Design Patterns. You may be familiar with each of these patterns, but...
+Example Components are related to [MCC Melody Design Patterns for Control Flow](https://onlinedocs.microchip.com/g/GUID-7CE1AEE9-2487-4E7B-B26B-93A577BA154E), which shows different standard ways to organize main.c and other application-level files, e.g., Polling-, Interrupt and Callback- or State Machine-Design Patterns. You may be familiar with each of these patterns, but...
 - What support does MCC Melody provide for each?
 - What are the recommended ways of building on the MCC Melody generated code? 
-
 
 <!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
      In addition a link to the device family landing page and relevant peripheral pages as well:
@@ -75,7 +74,9 @@ Once you have loaded the project in MPLAB X IDE, you will also be able to find m
 
 ## Operation
 
-The image shows running the Timer Toggle LED, verifying the 100ms period using Debug GPIO on the MPLAB Data Visualizer. An example Curiosity Nano is used, but the example can be configured to run on any board.
+The image below shows the Timer Toggle LED example running. The period of 100ms is verifyied using Debug GPIO on the MPLAB Data Visualizer. A PIC18F57Q43 Curiosity Nano is used.
+
+Note: One could achieve this same functionality by adding the Timer Example component to a new or existing MCC Melody project, for one of the supported microcontrollers.  
 
 ![Running the Timer Toogle LED example](images/RunningTimerToggleLED_15cm.png)
 
