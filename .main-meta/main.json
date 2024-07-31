@@ -23,7 +23,7 @@
             "semverRange": "^1.24.430"
         },
         "configurator": {
-            "name": "MCC Melody",
+            "name": "MCC",
             "semverRange": ""
         },
         "device": {
