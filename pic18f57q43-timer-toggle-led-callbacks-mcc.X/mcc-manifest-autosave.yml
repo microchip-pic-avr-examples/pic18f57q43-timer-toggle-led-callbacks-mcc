@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: pic18f57q43-timer-toggle-led-callbacks-mcc
-creation_date: 2024-07-31T10:52:32.360+02:00[Europe/Paris]
+creation_date: 2024-08-01T09:44:51.466+02:00[Europe/Paris]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
@@ -17,6 +17,7 @@ mcc_content_registries: https://registry.npmjs.org/
 device_library: {library_class: com.microchip.mcc.melody.Library, name: Melody, version: 2.7.1}
 packs: {name: PIC18F-Q_DFP, version: 1.25.433}
 modules:
+- {name: '@mchp-mcc/example-pic-adcc', type: MELODY, version: 1.0.0}
 - {name: '@mchp-mcc/example-pic-timer', type: MELODY, version: 1.0.0}
 - {name: '@mchp-mcc/main-manager', type: MELODY, version: 3.1.2}
 - {name: '@mchp-mcc/pic-8bit', type: MELODY, version: 5.28.2}

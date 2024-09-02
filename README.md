@@ -6,7 +6,14 @@
    </picture>
 </a>
 
-# MCC Melody Timer Toggle LED Example, Callbacks Implementation (PIC18F57Q43)
+## Video Building this Example 
+
+[![Video Building this Example](images/Video-TimerToggleLED-Callbacks.png "Change the values of these settings until the needed Requested Period is between the indicated min., max values.")](https://youtu.be/yPfu0OuIhqY)
+
+**Video:** [Introducing MCC Melody Example Components](https://youtu.be/zK5jLiIIYvE)
+(while building the Polled version of this example).   
+
+# MCC Melody Timer Toggle LED Example - Callbacks Implementation (PIC18F57Q43)
 
 The [TIMER Toggle LED example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.TIMER.PIC16F18F.TOGGLE.LED&version=latest&redirect=true
 ), of the MCC Melody Timer Example Component, is used in the **Callbacks implementation**.  The LED on the PIC18F57Q43 Curiosity Nano is toggled, as well as a Debug I/O, which can be used to verify the 100 ms period. 
@@ -41,7 +48,7 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 ## Hardware Used
 
 - PIC18F57Q43 Curiosity Nano [(DM164150)](https://www.microchip.com/en-us/development-tool/DM164150)
-- Curiosity Nano Explorer [(EV58G97A)](https://www.microchip.com/en-us/development-tool/EV58G97A)
+- Curiosity Nano Explorer [(EV58G97A)](https://www.microchip.com/en-us/development-tool/EV58G97A) - Not used in this example, but used futher in the series. 
 
 ## Setup
 
@@ -67,6 +74,11 @@ The image below shows the [TIMER Toggle LED example](https://onlinedocs.microchi
 
 
 Two vertical cursors are added to verify the timer frequency. See the configuration instructions below.
+
+1) Click the ![Data Visualizer icon](images/Icon-MPLAB-DataVisualizer_1cm.png) icon to open the MPLAB Data Visualizer.
+2) Under Debug GPIO, click the ![Add to time plot icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon, to add to the time plot.
+3) Click the ![Data Visualizer Zoom in icon](images/Icon-DataVisualizer_ZoomIn.png) icon, a few times, to zoom in on the Time Plot.
+4) Click the ![Data Visualizer Vertical Cursor icon](images/Icon-DataVisualizer_VerticalCursor.png) icon, a couple of times, to add two vertical cursors. Change the cursor positions by dragging them using the mouse, to measure the timer period. 
  
 ![DataVisualizer config Timer Toggle LED](images/DataVisualizerConfigTimerToggle_LED_15cm.png)
 
