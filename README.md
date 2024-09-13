@@ -1,16 +1,10 @@
-<a target="_blank" href="https://www.microchip.com/" id="top-of-page">
-   <picture>
-      <source media="(prefers-color-scheme: light)" srcset="images/mchp_logo_light.png" width="350">
-      <source media="(prefers-color-scheme: dark)" srcset="images/mchp_logo_dark.png" width="350">
-      <img alt="Microchip Technologies Inc." src="https://www.microchip.com/content/experience-fragments/mchp/en_us/site/header/master/_jcr_content/root/responsivegrid/header/logo.coreimg.100.300.png/1605828081463/microchip.png">
-   </picture>
-</a>
+<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 ## Video Building This Example 
 
-[![Video Building this Example](images/Video-TimerToggleLED-Callbacks.png "Change the values of these settings until the needed Requested Period is between the indicated min., max values.")](https://youtu.be/yPfu0OuIhqY)
+[![Video Building this Example](images/Video-TimerToggleLED-Callbacks.png "Change the values of these settings until the needed Requested Period is between the indicated min., max values.")](https://youtu.be/yPfu0OuIhqY?list=PLtQdQmNK_0DTA08RmyuJH4dyNrYGDGi0l)
 
-**Video:** [Introducing MCC Melody Example Components](https://youtu.be/zK5jLiIIYvE)
+**Video:** [Introducing MCC Melody Example Components](https://youtu.be/zK5jLiIIYvE?list=PLtQdQmNK_0DTA08RmyuJH4dyNrYGDGi0l)
 (while building the Polled version of this example).   
 
 # MCC Melody Timer Toggle LED Example - Callbacks Implementation (PIC18F57Q43)
